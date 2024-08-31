@@ -1,0 +1,45 @@
+.cal-btn{
+    background-color: #8f1b1b;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 5px;
+    margin: 20px;
+    border-style: none;
+}
+
+
+.cal-btn:hover {
+    background-color: #8f1b1b;
+}
+
+.checkout-mainlist{
+    list-style-type: none;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.checkout-sublist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7dcd6;
+    max-width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.checkout-sublist2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7e69f;
+    max-width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}

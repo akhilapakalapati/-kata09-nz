@@ -1,0 +1,99 @@
+.scan-nav-container-styling{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 20%; /* Full viewport height */
+    background-color: #F2AA4CFF;
+    font-size:  20px;
+    font-family: "Matemasie";
+    font-weight: bold;
+}
+
+.para-styling{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.select-styling {
+    width: 40%;
+    padding: 10px;
+    margin:10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    appearance: none; /* Remove default arrow in some browsers */
+}
+
+.select-styling:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.para-styling button {
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 4px;
+    font-size: 16px; 
+    cursor: pointer; 
+    margin-top: 5px; 
+    transition: background-color 0.3s ease; 
+} 
+ 
+.add-btn { 
+    background-color: #F2AA4CFF; 
+    color: white; 
+} 
+ 
+.add-btn:hover { 
+    background-color: #F2AA4CFF; 
+}
+
+.check-btn {
+    background-color: #8f1b1b;
+    color: white;
+    margin-left: 5px;
+}
+
+.check-btn:hover {
+    background-color: #8f1b1b;
+}
+
+.main-list-style{
+    list-style-type: none;
+}
+
+
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.sub-list-scan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f7dcd6;
+    max-width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+};
+
+.remove-btn:hover {
+    background-color: darkred;
+}
